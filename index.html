@@ -8,18 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet" />
   </head>
   <body id="body">
+    <!-- Header -->
     <header>
       <div class="container">
         <h1>Rejan’s Diner</h1>
         <h2>The best burgers and pizzas in town.</h2>
       </div>
     </header>
+
+    <!-- Menu Section -->
     <main id="main">
       <section class="menu" id="menu-1">
         <span>🍕</span>
-        <div class="menu-datails">
+        <div class="menu-details">
           <h3>Pizza</h3>
-          <p>pepperoni,mushrom,mozarella</p>
+          <p>pepperoni, mushroom, mozzarella</p>
           <h3>$14</h3>
         </div>
         <button class="add" id="add-btn-pizza">+</button>
@@ -27,7 +30,7 @@
 
       <section class="menu" id="menu-2">
         <span>🍔</span>
-        <div class="menu-datails">
+        <div class="menu-details">
           <h3>Hamburger</h3>
           <p>beef, cheese, lettuce</p>
           <h3>$18</h3>
@@ -37,7 +40,7 @@
 
       <section class="menu" id="menu-3">
         <span>🍺</span>
-        <div class="menu-datails">
+        <div class="menu-details">
           <h3>Beer</h3>
           <p>grain, hops, yeast, water</p>
           <h3>$11</h3>
@@ -45,6 +48,8 @@
         <button class="add" id="add-btn-beer">+</button>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer id="footer" class="footer">
       <h4 class="title" id="title">Your order</h4>
       <div class="total">
@@ -53,6 +58,8 @@
       </div>
       <button class="complete-order" id="complete-btn">Complete order</button>
     </footer>
+
+    <!-- Card Details Modal -->
     <div class="card-details" id="card">
       <button class="close-btn" id="close">x</button>
       <form id="form">
@@ -63,7 +70,10 @@
         <button class="pay-btn" id="pay-btn">Pay</button>
       </form>
     </div>
+
+    <!-- Order Done Message -->
     <div class="done-order">Thanks, Your order is on its way!</div>
+
     <script src="script.js" type="module"></script>
   </body>
 </html>
