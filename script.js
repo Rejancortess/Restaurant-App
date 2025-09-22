@@ -76,7 +76,6 @@ function handleClick(pizzaPrice, hamburgerPrice, beerPrice) {
   });
 }
 handleClick();
-
 document.getElementById('form').addEventListener('submit', (e) => {
   e.preventDefault();
 });
